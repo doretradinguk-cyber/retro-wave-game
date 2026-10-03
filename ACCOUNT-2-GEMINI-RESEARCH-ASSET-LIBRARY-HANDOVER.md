@@ -201,3 +201,9 @@ Read the newest README-MASTER-HANDOVER.md before a new research batch. The maste
 - Commercial-rights manifest made mandatory.
 - Asset library structure defined.
 - B / First Person vertical slice made the first sourcing target.
+
+## Blueprint link
+
+Work from the current blueprint: blue print plan/BLUEPRINT-PLAN.md
+
+Use blue print plan/DECISION-LOG.md for open/locked requirements and blue print plan/BENCHMARKS.md for the latest confirmed rollback target.
