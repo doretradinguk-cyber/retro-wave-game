@@ -132,3 +132,9 @@ Read the newest README-MASTER-HANDOVER.md before starting a new production batch
 - Modular asset strategy established.
 - Game-ready asset contract established.
 - B / First Person corridor set as the first asset target.
+
+## Blueprint link
+
+Work from the current blueprint: blue print plan/BLUEPRINT-PLAN.md
+
+Check blue print plan/BENCHMARKS.md before starting a major asset batch so asset work stays aligned with the latest confirmed build target.
