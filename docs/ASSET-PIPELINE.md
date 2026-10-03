@@ -17,3 +17,14 @@ python scripts/pipeline.py rehydrate --target game --project ../retro-wave-game
 Run `git lfs pull` in Drop Zone before either command. The lock is currently empty. Build/package only the files listed in the lock; old unselected runtime cache files may remain locally. For a Godot build, stage a clean project containing the selected runtime files before exporting so automatic resource import cannot package stale assets.
 
 Game source changes, runtime packaging and platform exports are the next development phase after the dashboard design and target devices are agreed.
+
+## Godot 4 collection workflow
+
+The game project root is the repository root: `project.godot`. Prepared assets remain in `assets/runtime/`, so the existing lock location stays compatible. From the sibling Drop Zone clone:
+
+```powershell
+python scripts/pipeline.py --collection retro-game-assets sync --target game --project ../retro-wave-game --ids ASSET_ID
+python scripts/pipeline.py --collection retro-game-assets rehydrate --target game --project ../retro-wave-game
+```
+
+Use unqualified root commands for older root locks; use collection commands when the lock identifies retro-game-assets. Do not mix collections in one lock. Scenes, GDScript, `.tres` resources and shaders are authored/reviewed in this game repository, not automatically copied by the binary-asset pipeline. See GODOT-STRUCTURE.md for paths and clean build packaging.

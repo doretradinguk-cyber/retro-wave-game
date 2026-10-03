@@ -1,0 +1,17 @@
+; Godot 4 project foundation. Active game code lives in this repository.
+config_version=5
+
+[application]
+config/name="Neon Hollow"
+run/main_scene="res://core/app/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.02, 0.04, 0.05, 1)

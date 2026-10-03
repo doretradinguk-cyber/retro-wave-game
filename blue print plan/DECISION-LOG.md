@@ -13,7 +13,7 @@ This file records the decisions made while the living blueprint is developed.
 | D-07 | First-person is the primary visual/camera target | LOCKED | Team | 2026-10-03 | B concept is the main target |
 | D-08 | Platform | OPEN | Account 3 | - | Workshop decision |
 | D-09 | Input scope | OPEN | Account 3 | - | Workshop decision |
-| D-10 | Engine/library foundation | OPEN | Account 3 | - | Workshop decision |
+| D-10 | Godot 4 + GDScript engine foundation | LOCKED | James + Account 3 | 2026-10-03 | User confirmed Godot; exact stable minor and renderer validation remain to be tested |
 | D-11 | Player movement values | OPEN | Account 3 | - | Workshop decision |
 | D-12 | First-slice weapon/equipment | OPEN | Team | - | Workshop decision |
 | D-13 | Enemy behaviour | OPEN | Team + Account 3 | - | Workshop decision |

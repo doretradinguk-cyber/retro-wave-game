@@ -1,6 +1,6 @@
 # Retro-Wave-Game - Master Blueprint Plan
 
-**Revision:** v0.1  
+**Revision:** v0.2
 **Date:** 2026-10-03  
 **Primary visual target:** Neon Hollow concept - B / First Person
 
@@ -398,9 +398,9 @@ Lock keyboard/mouse, controller and mobile/touch scope.
 
 ### DECISION 03 - Engine layer
 
-Lock the 3D stack and core supporting libraries.
+Godot 4 with GDScript is locked by the user. The repo root contains project.godot; see docs/GODOT-STRUCTURE.md. Exact stable minor version and renderer/effect validation remain to be measured on target hardware.
 
-**Status: OPEN**
+**Status: LOCKED — Godot 4 / GDScript**
 
 ### DECISION 04 - Player movement
 
@@ -464,7 +464,7 @@ A blueprint change does not automatically mean the game is broken. The benchmark
 
 ## 17. Current next step
 
-Walk through the OPEN decisions in Section 15, in order.
+Import the Godot foundation, verify its main scene on the development PC, then establish the first-person corridor prototype. Resolve the remaining OPEN decisions in Section 15 as needed for that slice.
 
 Lock only what needs to be fixed for the next build.
 
@@ -479,3 +479,9 @@ Do not over-design future systems before the corridor slice is proven.
 - Established vertical-slice-first strategy.
 - Established benchmark rollback process.
 - Recorded the initial open decision list.
+
+### v0.2 - 2026-10-03
+- Locked Godot 4 and GDScript following user confirmation.
+- Established Godot project/feature/resource folders and selected asset integration.
+- All three production accounts must target Godot-compatible handoffs.
+- No new benchmark: structure was checked, editor/runtime execution remains unverified.

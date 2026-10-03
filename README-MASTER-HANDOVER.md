@@ -154,3 +154,11 @@ Supporting files:
 - blue print plan/README.md
 
 The blueprint is the current planning source of truth. Confirmed working rollback points are recorded as BENCHMARKS.
+
+## Godot 4 foundation update — 3 October 2026
+
+Confirmed engine: Godot 4 with GDScript. All active game code, scenes, shaders and resources belong to retro-wave-game. Project root: project.godot. The repository now has core, features, world, UI, resources, shaders, addons and selected runtime asset folders; see docs/GODOT-STRUCTURE.md.
+
+Completed: Godot-specific folder/settings scaffold, main foundation-notice scene, source/import/cache conventions and Drop Zone integration guidance. Incomplete: first-person controls, corridor, collision, equipment, enemy, UI/audio and platform exports. Known limitation: Godot executable is unavailable here; the scaffold has structural checks only, not an editor/runtime test. No gameplay benchmark is confirmed.
+
+Next actions: import project.godot on the development PC, confirm the Godot stable minor version and target devices, then implement the first-person corridor prototype. Asset producers should provide self-contained GLB and appropriate PNG/WebP/audio exports with licence metadata; integration turns these into Godot scenes/resources. Keep original Adobe/DCC masters in Drop Zone.
