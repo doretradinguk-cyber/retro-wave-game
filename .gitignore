@@ -1,0 +1,11 @@
+assets/runtime/
+.godot/
+builds/
+exports/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
