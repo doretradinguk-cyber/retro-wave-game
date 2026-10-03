@@ -142,3 +142,15 @@ Build and prove the B / First Person vertical slice before broad expansion.
 - Vertical-slice-first production order established.
 - Commercial-rights tracking made mandatory.
 - Master + three account handovers established.
+
+## Blueprint system
+
+The living project blueprint is in:
+blue print plan/BLUEPRINT-PLAN.md
+
+Supporting files:
+- blue print plan/DECISION-LOG.md
+- blue print plan/BENCHMARKS.md
+- blue print plan/README.md
+
+The blueprint is the current planning source of truth. Confirmed working rollback points are recorded as BENCHMARKS.
