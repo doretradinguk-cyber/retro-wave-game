@@ -176,3 +176,9 @@ Read the newest README-MASTER-HANDOVER.md before major work. The master override
 - Rendering priorities established.
 - Modular asset integration rules established.
 - Performance and testing responsibilities established.
+
+## Blueprint link
+
+The living game blueprint is: blue print plan/BLUEPRINT-PLAN.md
+
+Use blue print plan/DECISION-LOG.md for requirements and blue print plan/BENCHMARKS.md for confirmed working rollback points.
